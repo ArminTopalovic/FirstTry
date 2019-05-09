@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Attendance"
+    android:background="@drawable/solid2">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/attendanceTitle"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                tools:text="Attendance" />
+
+            <ImageView
+                android:id="@+id/DamonWalker"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:contentDescription="@string/damonWalkerPicture"
+                app:srcCompat="@drawable/realDamon" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/damon_WalkerText"
+                android:textSize="25sp" />
+
+            <Button
+                android:id="@+id/AbsentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/DamonAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/DamonPresentBtn" />
+
+            <ImageView
+                android:id="@+id/MO"
+                android:layout_width="match_parent"
+                android:layout_height="141dp"
+                android:contentDescription="@string/MoPic"
+                app:srcCompat="@drawable/MO" />
+
+            <TextView
+                android:id="@+id/textView17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/MoText"
+                android:textSize="25sp"
+                tools:text="MO." />
+
+            <Button
+                android:id="@+id/absentBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/MoAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn2"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/MoPresentBtn" />
+
+            <ImageView
+                android:id="@+id/Syd"
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:contentDescription="@string/SydPic"
+                app:srcCompat="@drawable/Syd" />
+
+            <TextView
+                android:id="@+id/textView18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/SydText"
+                android:textSize="25sp"
+                tools:text="Sydney Roberson" />
+
+            <Button
+                android:id="@+id/absentBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/SydAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/SydPresentBtn" />
+
+            <ImageView
+                android:id="@+id/Mark"
+                android:layout_width="match_parent"
+                android:layout_height="164dp"
+                android:contentDescription="@string/MarkPic"
+                app:srcCompat="@drawable/mark" />
+
+            <TextView
+                android:id="@+id/textView21"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/MarkText"
+                android:text="@string/MarkText"
+                android:textSize="25sp"
+                tools:text="Mark" />
+
+            <Button
+                android:id="@+id/absentBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/MarkAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn4"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/MarkPresentBtn" />
+
+            <ImageView
+                android:id="@+id/Will"
+                android:layout_width="wrap_content"
+                android:layout_height="185dp"
+                android:contentDescription="@string/WillPic"
+                app:srcCompat="@drawable/Will" />
+
+            <TextView
+                android:id="@+id/textView22"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/WillText"
+                android:text="@string/WillText"
+                android:textSize="25sp"
+                tools:text="Will" />
+
+            <Button
+                android:id="@+id/absentBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/WillAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn5"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/WillPresentBtn" />
+
+            <ImageView
+                android:id="@+id/Jacob"
+                android:layout_width="match_parent"
+                android:layout_height="210dp"
+                android:contentDescription="@string/JacobPic"
+                app:srcCompat="@drawable/Jacob" />
+
+            <TextView
+                android:id="@+id/textView23"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/JacobText"
+                android:text="@string/JacobText"
+                android:textSize="25sp"
+                tools:text="Jacob" />
+
+            <Button
+                android:id="@+id/absentBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/JacobAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/JacobPresentBtn" />
+
+            <ImageView
+                android:id="@+id/Armin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/ArminPic"
+                app:srcCompat="@drawable/armin" />
+
+            <TextView
+                android:id="@+id/textView24"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ArminText"
+                android:textSize="25sp"
+                tools:text="Armin Topalovic" />
+
+            <Button
+                android:id="@+id/absentBtn10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/ArminAbsentBtn" />
+
+            <Button
+                android:id="@+id/presentBtn7"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/ArminPresentBtn" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
